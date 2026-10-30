@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+test_bin/
+reports/inspect-db/
+*.idb
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
