@@ -1,7 +1,28 @@
 {
+  "$schema": "https://hcli.docs.hex-rays.com/schemas/ida-plugin.json",
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
-    "name": "Main Identify",
-    "entryPoint": "main_identify.py"
+    "name": "MainIdentify",
+    "version": "0.7.3",
+    "entryPoint": "main_identify.py",
+    "description": "A plugin for locating the `main` entry point in C, Go, and Rust programs.",
+    "idaVersions": ["9.1", "9.2", "9.3", "9.4", "9.5"],
+    "license": "MIT",
+    "categories": [
+      "file-parsers-and-loaders"
+    ],
+    "keywords": [
+      "reverse-engineering",
+      "main"
+    ],
+    "urls": {
+      "repository": "https://github.com/EEEEhex/main-identify"
+    },
+    "authors": [
+      {
+        "name": "EEEEhex",
+        "email": "EEEEhex@noreply.com"
+      }
+    ]
   }
 }
